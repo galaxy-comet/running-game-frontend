@@ -1,0 +1,152 @@
+.admin-back{
+    /* background-color: #08121a; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-modal{
+    /* background-color: #152533; */
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+.admin-title{
+    margin-top: 55px;
+    font-size: 3.8em;
+    /* letter-spacing: 0.05em; */
+    color: #c3c3c3;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.admin-input{
+    margin: 11px 0px;
+    font-size: 0.9em;
+    padding: 10px 17px;
+    outline: none;
+    border-radius: 3px;
+    background-color: #ededed;
+}
+.admin-btn{
+    margin-top: 20px;
+    width: 140px;
+    padding: 9px;
+    background: #aaad93;
+    color: #08121a;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+    border-radius: 3px;
+}
+.admin-btn:hover{
+    cursor: pointer;
+}
+.admin-page{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.admin-sidebar{
+    width: 20%;
+    min-width: 200px;
+    background-color: #08121a;
+}
+.admin-panel{
+    width: 80%;
+    min-height: calc(100vw - 200px);
+    padding: 30px;
+}
+.admin-logo{
+    padding: 20px 5px 10px 5px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #03090e;
+}
+.admin-logoimg{
+    width: 60px;
+    vertical-align: middle;
+}
+.admin-logotxt{
+    margin-left: 10px;
+    color: #aaad93;
+    font-size: 2em;
+    vertical-align: middle;
+    font-weight: 600;
+}
+.admin-sidebar-li{
+    
+}
+.admin-li{
+    font-size: 1.3em;
+    color: #dadbd2;
+    padding: 20px 20px;
+}
+.admin-li:hover{
+    cursor: pointer;
+    background-color: #0a151f;
+}
+#metaman-panel{
+    padding: 0px 50px;
+}
+.admin-hd{
+
+}
+.admin-hd h1{
+    color: #aaad93;
+    margin-bottom: 5px;
+}
+.admin-pg-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    color: #d0d3bd;
+}
+.admin-pg-1-1{
+    width: 50%;
+    color: #d0d3bd;
+}
+.admin-pg-1-1 h4 span{
+    color: #d0d3bd;
+    font-size: 1.2em;
+}
+.change-btn{
+    padding:5px 10px;
+    font-weight: 600;
+}
+.change-btn:hover{
+    cursor: pointer;
+}
+.setting-input{
+    padding: 3px 10px;
+    outline: none;
+    border-radius: 3px;
+    background-color: #ededed;
+    width: 100px;
+}
+.logoff-btn{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #aaad93;
+    font-size: 1em;
+    font-weight: 600;
+}
+.logoff-btn:hover{
+    cursor: pointer;
+
+}
+.admin-btn1{
+    position: absolute;
+    top: 20px;
+    left: 41px;
+    font-size: 1.5em;
+    font-family: fantasy;
+    letter-spacing: 0.1em;
+    color: beige;
+}
+.admin-btn1:hover{
+    cursor: pointer;
+    color: rgb(235, 235, 204);
+}
